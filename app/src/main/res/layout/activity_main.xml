@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/main_surface"
+        android:layout_width="match_parent"
+        android:layout_height="550dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+
+        >
+
+        <Button
+            android:id="@+id/sketchfilter"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sketch"
+            />
+
+        <Button
+            android:id="@+id/cameraviewchange"
+
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera View"
+            />
+
+        <Button
+            android:id="@+id/cartoonfilter"
+
+
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cartoon "
+            />
+
+        <Button
+            android:id="@+id/capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+include ':sdk'
+include ':app'
+rootProject.name = "CameraFun"
+project(':sdk').projectDir = new File(opencvsdk+'/sdk')
